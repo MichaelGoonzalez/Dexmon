@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+}
+.left-content,.right-content{
+    flex-basis: 50%;
+}
+.left-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-gap: 2rem;
+}
+.right-content{
+    width: 50%;
+}
+.right-content .card{
+    text-align: center;
+    position: fixed;
+    margin: 10%;
+    margin-top: 10px;
+
+}
+.card img{
+    height: 140px;
+    padding: 0px;
+}
+.right-content h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.abilities{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.abilities p{
+    margin: 3px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+.stats{
+    display: flex;
+}
+.stats p{
+    text-transform: uppercase;
+    margin: 1px;
+}
+
+
+.btn-group{
+    width: 10px;
+    height: 50px;
+}
